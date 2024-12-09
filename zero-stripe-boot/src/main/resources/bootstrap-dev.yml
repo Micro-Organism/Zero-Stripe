@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: zero-stripe-boot
+    thymeleaf:
+        #Don't cache thymeleaf files - FOR TEST PURPOSE ONLY
+        cache: false
+#Stripe keys - REPLACE WITH ACTUAL KEYS
+stripe:
+    keys:
+        public: pk_test_XXXXXXXXXXXXXX
+        secret: sk_test_XXXXXXXXXXXXXX
